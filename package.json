@@ -1,0 +1,31 @@
+{
+  "name": "gulp-email-builder",
+  "version": "3.0.0",
+  "description": "Uses Email Builder to inline css",
+  "main": "lib/emailBuilder.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gabriel_erod@bitbucket.org/erodcomm/email-workflow.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "del": "^2.2.1",
+    "email-builder-core": "^2.0.0",
+    "gulp-util": "^3.0.4",
+    "through2": "^2.0.1",
+    "gulp-connect": "^3.2.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^2.0.1",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "sinon": "^1.14.1",
+    "vinyl": "^1.1.1",
+    "gulp-connect": "^3.2.2"
+  }
+}

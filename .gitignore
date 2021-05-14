@@ -1,5 +1,5 @@
 node_modules
-example/dist
+src/dist
 reports
 npm-debug.log
 .idea/

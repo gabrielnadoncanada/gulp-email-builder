@@ -70,7 +70,7 @@
                                 <td>
                                     <h1>
                                         <span style="font-family: 'Gothic A1','Calibri', Arial, sans-serif !important;">
-                                         @@name
+                                         {{name}}
                                         </span>
                                     </h1>
                                 </td>
@@ -79,7 +79,7 @@
                                 <td>
                                     <h2>
                                         <span style="font-family: 'Gothic A1','Calibri', Arial, sans-serif !important;">
-                                           @@role
+                                           {{role}}
                                         </span>
                                     </h2>
                                 </td>
@@ -89,7 +89,7 @@
                                 <td>
                                     <h3>
                                         <span style="font-family: 'Gothic A1','Calibri', Arial, sans-serif !important;">
-                                           @@address
+                                           {{address}}
                                         </span>
                                     </h3>
                                 </td>
@@ -97,9 +97,9 @@
                             <tr height="15"></tr>
                             <tr>
                                 <td>
-                                    <a href="tel:@@phone">
+                                    <a href="tel:{{phone}}">
                                         <span style="font-family: 'Gothic A1','Calibri', Arial, sans-serif !important;">
-                                           @@phone
+                                           {{phone}}
                                         </span>
                                     </a>
                                 </td>
@@ -120,9 +120,9 @@
                             <tr height="7"></tr>
                             <tr>
                                 <td>
-                                    <a href="https://@@website">
+                                    <a href="https://{{website}}">
                                         <span style="font-family: 'Gothic A1','Calibri', Arial, sans-serif !important;">
-                                           @@website
+                                           {{website}}
                                         </span>
                                     </a>
                                 </td>
@@ -160,5 +160,7 @@
     </tr>
     </tbody>
 </table>
+
+<script src="../../lib/main.js" data-embed-ignore></script>
 </body>
 </html>

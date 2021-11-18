@@ -25,5 +25,8 @@
     "sinon": "^1.14.1",
     "through2": "^2.0.1",
     "vinyl": "^1.1.1"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
   }
 }

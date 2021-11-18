@@ -19,7 +19,7 @@ function generate_files() {
         var mydata = file.contents.toString('utf8');
         var base = path.join(file.path, '..');
         var self = this;
-        var html_start = "<html><head><meta charset='UTF-8'></head><body><h1>Index des signatures</h1><ul>";
+        var html_start = "<html><head><meta charset='UTF-8'><link rel='stylesheet' href='./index.css'></head><body><h1>Index des signatures</h1><ul>";
         var html_end = "</ul></body></head></html>";
         var html_content = "";
 
